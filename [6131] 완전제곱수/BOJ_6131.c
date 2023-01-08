@@ -1,5 +1,5 @@
 /*
-South Korea, 8 Jan, 2023
+South Korea, 9 Jan, 2023
 @seakim-knu
 BOJ [6131] 완전제곱수
 */
