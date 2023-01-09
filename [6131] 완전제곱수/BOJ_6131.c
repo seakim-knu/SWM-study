@@ -36,5 +36,7 @@ int main(){
 
     printf("%d \n", ans/2);
 
+    free(box);
+
     return 0;
 }
