@@ -40,5 +40,6 @@ int main(){
     printf("%d\n", count);
 
     free(card);
+    
     return 0;
 }
