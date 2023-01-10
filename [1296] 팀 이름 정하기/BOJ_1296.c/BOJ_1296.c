@@ -83,12 +83,12 @@ int main(){
         printf("[%d] %d\n", i, table1[i]);
     }
 
-   for(i=0; i<n; i++){
-        for(j=0; j<4; j++){
-        printf("[%d][%d] %d\n", i, j, table2[i][j]);
+    for (i = 0; i < n; i++) {
+        for (j = 0; j < 4; j++) {
+            printf("[%d][%d] %d\n", i, j, table2[i][j]);
         }
-   }
-   
+    }
+
     // for(i=0; i<n; i++){
     //     for(j=0; j<4; j++){
     //         printf("%d ", table1[i][j]);
