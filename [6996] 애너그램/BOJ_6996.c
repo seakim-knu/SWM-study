@@ -11,37 +11,33 @@ BOJ [6996] 애너그램
 #define SIZE 20
 
 int main(){
-    int n;
-    char **a;
-    char **b;
-    int i;
-    int j;
+    int     n;
+    char    **a;
+    char    **b;
+    int     i;
+    int     j;
 
     scanf("%d", &n);
 
-    a=(char **)malloc(sizeof(char*)*n);
-    b=(char **)malloc(sizeof(char*)*n);
+    a = (char **)malloc(sizeof(char *) * n);
+    b = (char **)malloc(sizeof(char *) * n);
 
     for (i = 0; i < n; i++) {
-        a[i]=(char *)malloc(sizeof(char)*(SIZE+1));
-        b[i]=(char *)malloc(sizeof(char)*(SIZE+1));
+        a[i] = (char *)malloc(sizeof(char) * (SIZE + 1));
+        b[i] = (char *)malloc(sizeof(char) * (SIZE + 1));
     }
 
     for (i = 0; i < n; i++) {
         scanf("%s %s", a[i], b[i]);
     }
 
-    for(i=0; i<n; i++){
-        if(strlen(a[i])!=strlen(b[i]))
+    for (i = 0; i < n; i++) {
+        if (strlen(a[i]) != strlen(b[i]))
             printf("%s & %s are NOT anagrams.\n", a[i], b[i]);
-        else{
+        else {
             printf("%s & %s are anagrams.\n", a[i], b[i]);
         }
     }
-
-    // for (i = 0; i < n; i++) {
-    //     printf("%s %s\n", a[i], b[i]);
-    // }
 
     return 0;
 }
