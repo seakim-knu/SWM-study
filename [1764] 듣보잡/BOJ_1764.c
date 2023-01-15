@@ -68,5 +68,8 @@ int main(){
         }
     }
 
+    free(hear);
+    free(see);
+
     return 0;
 }
