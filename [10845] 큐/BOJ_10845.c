@@ -3,11 +3,12 @@ South Korea, 16 Jan, 2023
 @seakim-knu
 BOJ [10845] 큐
 */
-
+ 
 #include<stdio.h>
 #include<string.h>
 
 #define SIZE 10000
+
 int     queue[SIZE+1] = {0};
 char    operand[15];
 int     cnt = 0;
